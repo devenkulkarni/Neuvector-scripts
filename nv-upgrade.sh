@@ -7,7 +7,7 @@ reg=$4
 if [ -z "$ocToken" ] || [ -z "$ocUrl" ] || [ -z "$version" ]; then
     echo "[### Usage ###] bash upgradeVersion.sh openshift_token openshift_login_url version"
     echo "[### Info ###] You can copy the token and url from openshift console under username --> copy login command"
-    echo "[### Info ###] Must have podman and oc in local machine, login should be cluster admin
+    echo "[### Info ###] Must have podman and oc in local machine, login should be cluster admin"
     exit 1
 fi
 
