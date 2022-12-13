@@ -10,7 +10,9 @@ export oc_url=<URL>
 export NV_version=<Mention the version to which NV cluster is to be updated>
 export reg=<registry-name:port>   // Mention port if necessary.
 ```
-Note: You can copy the token and url from openshift console under username --> copy login command
+Note: 
+1. You can copy the token and url from openshift console under username --> copy login command
+2. Make sure the user has `cluster-admin` role assigned.
 
 Download the `nv-upgrade.sh` file and to run it you need to pass above variables as arguments.
 
